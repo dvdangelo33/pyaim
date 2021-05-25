@@ -217,6 +217,25 @@ else:
     raise Exception(service_status)
 ```
 
+##### Example
+
+
+```python
+from pyaim import CCPPasswordRESTSecure
+
+aimccp = CCPPasswordRESTSecure('https://ccp.cyberarkdemo.example', "clientcert.pem", verify=True) # set verify=False to ignore SSL
+
+service_status = aimccp.check_service()
+
+if service_status == 'SUCCESS: AIMWebService Found. Status Code: 200':
+    response = aimccp.GetPassword(appid='appid',safe='safe',object='objectName',reason='Reason message')
+    print('Full Python Object: {}'.format(response))
+    print('Username: {}'.format(response['Username']))
+    print('Password: {}'.format(response['Content']))
+else:
+    raise Exception(service_status)
+```
+
 ## Maintainer
 
 [@infamousjoeg](https://github.com/infamousjoeg)
