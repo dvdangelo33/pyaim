@@ -6,3 +6,4 @@ when you install this module
 
 from .aimcp import CLIPasswordSDK
 from .aimccp import CCPPasswordREST
+from .aimccp_secure import CCPPasswordRESTSecure
