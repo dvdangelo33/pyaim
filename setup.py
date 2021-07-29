@@ -22,7 +22,7 @@ setuptools.setup(
     description="CyberArk Application Access Manager Client Library for Python 3",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/infamousjoeg/pyaim",
+    url="https://github.com/dvdangelo33/pyaim",
     license="MIT",
     packages=setuptools.find_packages(),
     classifiers=[
@@ -54,8 +54,8 @@ setuptools.setup(
         "pas"
         ],
     project_urls={
-        'Bug Reports': 'https://github.com/infamousjoeg/pyaim/issues/new?assignees=&labels=&template=bug_report.md&title=',
-        'Feature Requests': 'https://github.com/infamousjoeg/pyaim/issues/new?assignees=&labels=&template=feature_request.md&title=',
-        'Source': 'https://github.com/infamousjoeg/pyaim'
+        'Bug Reports': 'https://github.com/dvdangelo33/pyaim/issues/new?assignees=&labels=&template=bug_report.md&title=',
+        'Feature Requests': 'https://github.com/dvdangelo33/pyaim/issues/new?assignees=&labels=&template=feature_request.md&title=',
+        'Source': 'https://github.com/dvdangelo33/pyaim'
     }
 )
